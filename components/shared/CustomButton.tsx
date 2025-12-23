@@ -22,14 +22,14 @@ const CustomButton = React.forwardRef(
   ) => {
     const btnColor = {
       primary: "bg-primary",
-      secondary: "bg-primary",
-      tertiary: "bg-primary",
+      secondary: "bg-secondary",
+      tertiary: "bg-tertiary",
     }[color];
 
     const textColor = {
       primary: "text-primary",
-      secondary: "text-primary",
-      tertiary: "text-primary",
+      secondary: "text-secondary",
+      tertiary: "text-tertiary",
     }[color];
 
     if (variant === "text-only") {

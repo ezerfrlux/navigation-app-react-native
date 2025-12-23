@@ -3,7 +3,7 @@ import { Redirect } from "expo-router";
 export default function Index() {
   return (
 
-    <Redirect href="/home" />
+    <Redirect href="/(stack)/home" />
 
     // <View
     //   className="mt-10 bg-red-50"
