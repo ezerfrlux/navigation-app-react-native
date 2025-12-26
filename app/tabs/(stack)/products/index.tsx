@@ -18,7 +18,7 @@ export default function ProductsScreen() {
               <Text className="font-work-black">
                 {item.price}
               </Text>
-              <Link href={`/(stack)/products/${item.id}`} className="text-primary">Ver detalles</Link>
+              <Link href={`/tabs/(stack)/products/${item.id}`} className="text-primary">Ver detalles</Link>
             </View> 
           </View>
         )}
