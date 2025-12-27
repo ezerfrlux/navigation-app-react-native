@@ -1,14 +1,14 @@
+import CustomDrawer from "@/components/shared/CustomDrawer";
 import { Ionicons } from "@expo/vector-icons";
 import Drawer from "expo-router/drawer";
 import React from "react";
-import { Text } from "react-native";
 export default function DrawerLayout() {
   return (
     <Drawer
-      drawerContent={() => <Text>Hola mudo</Text>}
+      drawerContent={CustomDrawer}
 
       screenOptions={{
-        overlayColor: "rgba(0,0,0,0.4)",
+        overlayColor: "rgba(0,0,0,0.5)",
         drawerActiveTintColor: "indigo",
         headerShadowVisible: false,
         sceneStyle: {
