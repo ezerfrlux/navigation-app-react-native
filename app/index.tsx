@@ -4,7 +4,7 @@ export default function Index() {
   return (
 
     // <Redirect href="/(stack)/home" />
-    <Redirect href="/drawer" />
+    <Redirect href="/home" />
 
     // <View
     //   className="mt-10 bg-red-50"

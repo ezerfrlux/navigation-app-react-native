@@ -11,21 +11,21 @@ export default function HomeScreen() {
         <CustomButton
           className="mb-2"
           color="primary"
-          onPress={() => router.push("/tabs/(stack)/products")}
+          onPress={() => router.push("/products")}
         >
           Productos
         </CustomButton>
         <CustomButton
           className="mb-2"
           color="secondary"
-          onPress={() => router.push("/tabs/(stack)/profile")}
+          onPress={() => router.push("/profile")}
         >
           Profile
         </CustomButton>
         <CustomButton
           className="mb-10"
           color="tertiary"
-          onPress={() => router.push("/tabs/(stack)/settings")}
+          onPress={() => router.push("/settings")}
         >
           Settings
         </CustomButton>
